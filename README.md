@@ -16,7 +16,7 @@
 
 ## How to install & start?  
     git clone https://github.com/ErwinSaputraSulistio/Z-Wallet-BE
-    cd Z-Wallet-BW
+    cd Z-Wallet-BE
     npm install
     nodemon app.js
 
