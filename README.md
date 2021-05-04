@@ -1,9 +1,10 @@
 # Z-Wallet-BE
-![Login](https://user-images.githubusercontent.com/77045083/117056117-25e4ce00-ad46-11eb-8a77-40e0d1fea5e4.png)  
-![Profile](https://user-images.githubusercontent.com/77045083/117056151-2f6e3600-ad46-11eb-9d37-53eae812edca.png)  
-![Menu](https://user-images.githubusercontent.com/77045083/117056163-31d09000-ad46-11eb-8dd0-65a06380848c.png)  
-![Chat](https://user-images.githubusercontent.com/77045083/117056167-3301bd00-ad46-11eb-8bc3-8c9bcbd9d492.png)  
-![Validasi](https://user-images.githubusercontent.com/77045083/117056172-34cb8080-ad46-11eb-9b16-7521a65ed23d.png)
+![Login](https://user-images.githubusercontent.com/77045083/117056856-fc787200-ad46-11eb-8329-9d9aac0cf244.png)  
+![Home](https://user-images.githubusercontent.com/77045083/117056862-ff736280-ad46-11eb-86eb-8c03dcfcaca5.png)  
+![History](https://user-images.githubusercontent.com/77045083/117056871-00a48f80-ad47-11eb-9256-ed7115a3c3c2.png)  
+![Transfer](https://user-images.githubusercontent.com/77045083/117056899-0601da00-ad47-11eb-8f03-b05b10de7918.png)  
+![TopUp](https://user-images.githubusercontent.com/77045083/117056905-07330700-ad47-11eb-9ed7-a144bc6d00b4.png)  
+![Profile](https://user-images.githubusercontent.com/77045083/117056914-08fcca80-ad47-11eb-952a-d08814ec1f3d.png)  
 
 ## How to install & start?  
     git clone https://github.com/ErwinSaputraSulistio/IntermediateBackend-Week6
