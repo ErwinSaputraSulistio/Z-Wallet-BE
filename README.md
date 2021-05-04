@@ -15,8 +15,8 @@
 ![Profile](https://user-images.githubusercontent.com/77045083/117056914-08fcca80-ad47-11eb-952a-d08814ec1f3d.png)  
 
 ## How to install & start?  
-    git clone https://github.com/ErwinSaputraSulistio/IntermediateBackend-Week6
-    cd IntermediateBackend-Week6
+    git clone https://github.com/ErwinSaputraSulistio/Z-Wallet-BE
+    cd Z-Wallet-BW
     npm install
     nodemon app.js
 
