@@ -4,11 +4,11 @@
 ### 1.) Login  
 ![Login](https://user-images.githubusercontent.com/77045083/117056856-fc787200-ad46-11eb-8329-9d9aac0cf244.png)  
 ### 2.) Home  
-![Home](https://user-images.githubusercontent.com/77045083/117056862-ff736280-ad46-11eb-86eb-8c03dcfcaca5.png)  
+![Home](https://user-images.githubusercontent.com/77045083/117717734-642a3380-b205-11eb-93ba-89c8bdb90d6b.png)
 ### 3.) History  
-![History](https://user-images.githubusercontent.com/77045083/117056871-00a48f80-ad47-11eb-9256-ed7115a3c3c2.png)  
+![History](https://user-images.githubusercontent.com/77045083/117717744-67252400-b205-11eb-88bf-f3b6df35b43c.png)
 ### 4.) Transfer  
-![Transfer](https://user-images.githubusercontent.com/77045083/117056899-0601da00-ad47-11eb-8f03-b05b10de7918.png)  
+![Transfer](https://user-images.githubusercontent.com/77045083/117717753-6ab8ab00-b205-11eb-9411-351e81aca24f.png)
 ### 5.) Top-Up  
 ![TopUp](https://user-images.githubusercontent.com/77045083/117056905-07330700-ad47-11eb-9ed7-a144bc6d00b4.png)  
 ### 6.) Profile  
