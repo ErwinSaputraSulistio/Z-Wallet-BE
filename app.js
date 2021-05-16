@@ -4,7 +4,7 @@ const express = require('express')
 const cors = require('cors')
 const morgan = require('morgan')
 const app = express()
-const port = process.env.PORT
+const port = process.env.PORT || 3000
 const host = process.env.DB_HOST
 const route = require('./files/routes')
 const cookieParser = require('cookie-parser')
@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }))
 app.use(cors({origin: 'http://localhost:3000', credentials: true}))
 app.use(morgan('dev'))
 app.use(cookieParser())
-app.listen(2345, host, () => { console.log('Server telah di-aktivasi dengan port ' + port) })
+app.listen(port, host, () => { console.log('Server telah di-aktivasi dengan port ' + port) })
 
 // routers
 app.use('/v1', route)
