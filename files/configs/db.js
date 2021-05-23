@@ -1,4 +1,4 @@
-const Pool = require('pg').Pool
+const { Pool } = require('pg')
 
 const db = new Pool({
    host: process.env.DB_HOST,
