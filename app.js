@@ -12,7 +12,7 @@ const cookieParser = require('cookie-parser')
 // app - settings
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
-app.use(cors({origin: 'http://localhost:3000', credentials: true}))
+app.use(cors({origin: 'https://z-wallet-erwinsaputrasulistio.vercel.app', credentials: true}))
 app.use(morgan('dev'))
 app.use(cookieParser())
 app.listen(port, host, () => { console.log('Server telah di-aktivasi dengan port ' + port) })
