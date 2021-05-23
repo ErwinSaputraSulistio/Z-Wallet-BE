@@ -186,7 +186,7 @@ exports.searchUserByName = (req, res) => {
 exports.changeUserAvatar = (req, res) => {
    try {
      const userId = req.params.id
-     const profilePictureURL = 'http://localhost:2345/img/' + req.file.filename
+     const profilePictureURL = 'http://ciwin-zwallet.herokuapp.com/img/' + req.file.filename
      userDataModel.uploadUserProfilePicture(userId, profilePictureURL)
        .then(() => { callResult.returnSuccess(res, 201, 'Berhasil mengganti gambar profil user!') })
        .catch((err) => { callResult.returnFailed(res, 404, err.message) })
