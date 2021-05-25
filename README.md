@@ -1,4 +1,6 @@
-# Z-Wallet-BE
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/77045083/119468721-e7549900-bd70-11eb-8c04-def39835f5b4.png" width="222">
+</p>
 
 ## How to install & start?  
     git clone https://github.com/ErwinSaputraSulistio/Z-Wallet-BE
