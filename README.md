@@ -34,6 +34,7 @@ Path | Method | Explanation
 
 
 ## :pushpin: Links :  
+Postman : https://documenter.getpostman.com/view/14851668/TzXxicwt  
 Frontend : https://github.com/ErwinSaputraSulistio/Z-Wallet-FE  
 Deploy : https://z-wallet-erwinsaputrasulistio.vercel.app/  
 
