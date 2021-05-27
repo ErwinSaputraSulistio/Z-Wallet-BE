@@ -2,11 +2,21 @@
   <img src="https://user-images.githubusercontent.com/77045083/119468721-e7549900-bd70-11eb-8c04-def39835f5b4.png" width="222">
 </p>
 
+## :mag_right: About Z-Wallet
+    Z-Wallet is web application that help our users to transfer their money to another user easily via 
+    online with a more simple way. Just create an account (register), login and top-up some saldo, 
+    then transfer! So easy and simple right? 
+    
+    Now they don't need to go to a bank anymore, 
+    because Z-Wallet handles all of the money transfers for them.
+
 ## :question: How to install & start?  
     git clone https://github.com/ErwinSaputraSulistio/Z-Wallet-BE
     cd Z-Wallet-BE
     npm install
     nodemon app.js
+Frontend (GitHub Repository) : https://github.com/ErwinSaputraSulistio/Z-Wallet-FE  
+
 
 ## :page_with_curl: Backend - List of Endpoints
     http://localhost:2345/v1/Path
@@ -35,7 +45,6 @@ Path | Method | Explanation
 
 ## :pushpin: Links :  
 Postman : https://documenter.getpostman.com/view/14851668/TzXxicwt  
-Frontend : https://github.com/ErwinSaputraSulistio/Z-Wallet-FE  
 Deploy : https://z-wallet-erwinsaputrasulistio.vercel.app/  
 
 ## :hammer_and_wrench: Build with :  
