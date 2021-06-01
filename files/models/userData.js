@@ -147,5 +147,15 @@ exports.userVerificationSuccess = (userId) => {
        if (!err) { resolve(result) } else { reject(err) }
      })
    })
+}
+
+// user - reset password
+exports.resetUserPassword = (userpassword, useremail) => {
+   return new Promise((resolve, reject) => {
+     db.query("UPDATE user_data SET user_password = '" + userpassword + "' WHERE user_email = '" + useremail + "'", (err, result) => {
+       if (!err) { resolve(result.rows) } else { reject(err) }
+     })
+   })
  }
+ 
  

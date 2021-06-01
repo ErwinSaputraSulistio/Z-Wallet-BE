@@ -20,6 +20,9 @@ router
    .get('/all/search', userDataController.searchUserByName)
    .patch('/change/avatar/:id', jwtCheck.verifyJwtToken, uploadAvatar, userDataController.changeUserAvatar)
    .get('/verify/:id', userDataController.verifyNewUser)
+   .post('/reset/send-mail', userDataController.sendResetPasswordMail)
+   .put('/reset/new-password', userDataController.resetPassword)
+   .get('/reset/:id', userDataController.checkIfJwtResetValid)
 
 // exports
 module.exports = router
