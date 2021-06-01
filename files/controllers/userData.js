@@ -228,7 +228,7 @@ exports.sendResetPasswordMail = (req, res) => {
      else {
        const payload = { mail }
        jwt.sign(payload, process.env.JWT_SECRET_KEY, { expiresIn: 60 * 15 }, (err, token) => {
-         statusCode.loginWithJWT(res, 200, mail, token)
+         callResult.returnSuccess(res, 200, {email: mail, jwtToken: token})
          NM.resetPassword(token, mail)
        })
      }
@@ -251,7 +251,7 @@ exports.sendResetPasswordMail = (req, res) => {
            if (err.name === 'JsonWebTokenError') { errMsg = 'Invalid JWT token!' } else if (err.name === 'TokenExpiredError') { errMsg = 'JWT token already expired!' } else { errMsg = 'JWT token not active!' }
            cancelCreateUser(errMsg)
          } else {
-             statusCode.statRes(res, 201, 'JWT token untuk reset password masih aktif!')
+            callResult.returnSuccess(res, 201, 'JWT token untuk reset password masih aktif!')
          }
        })
      }
@@ -281,7 +281,7 @@ try {
             else {
             const hashedResetPassword = bcrypt.hashSync(newPassword, salt)
             userDataModel.resetUserPassword(hashedResetPassword, user.mail)
-               .then(() => { res.send('Reset password berhasil, silahkan login!') })
+               .then(() => { callResult.returnSuccess(res, 200, 'Reset password berhasil, silahkan login!') })
                .catch((err) => { res.send(err.message) })
             } 
          }
